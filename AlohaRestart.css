@@ -1,148 +1,315 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
-*/
+/* */  RESET and FONTS 
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
 
-/* End of reset, time for styles 😸 */
+  /* End of reset, time for styles 😸 */
+  
+   /* Fonts */
+  @font-face {
+    font-family: 
+    'raleway';
+    src: 
+    url('fonts/more-fonts/raleway-light-webfont.eot');
+    src: 
+    url('fonts/more-fonts/raleway-light-webfont.eot?#iefix')
+    format('embedded-opentype'),
+    url('fonts/more-fonts/raleway-light-webfont.woff2')
+    format('woff2'),
+    url('fonts/more-fonts/raleway-light-webfont.ttf')
+    format('truetype'),
+    url('fonts/more-fonts/raleway-light-webfont.svg#ralewaylight')
+    format('svg');
+    font-weight: 
+    300;
+    font-style: 
+    normal;
+    
+    }
+    
+    
+    
+    
+    @font-face {
+    font-family: 
+    'raleway';
+    src: 
+    url('fonts/more-fonts/raleway-lightitalic-webfont.eot');
+    src: 
+    url('fonts/more-fonts/raleway-lightitalic-webfont.eot?#iefix')
+    format('embedded-opentype'),
+    url('fonts/more-fonts/raleway-lightitalic-webfont.woff2')
+    format('woff2'),
+    url('fonts/more-fonts/raleway-lightitalic-webfont.ttf')
+    format('truetype'),
+    url('fonts/more-fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic')
+    format('svg');
+    font-weight: 
+    300;
+    font-style: 
+    italic;
+    
+    }
+    
+    
+    
+    
+    @font-face {
+    font-family: 
+    'raleway';
+    src: 
+    url('fonts/more-fonts/raleway-medium-webfont.eot');
+    src: 
+    url('fonts/more-fonts/raleway-medium-webfont.eot?#iefix')
+    format('embedded-opentype'),
+    url('fonts/more-fonts/raleway-medium-webfont.woff2')
+    format('woff2'),
+    url('fonts/more-fonts/raleway-medium-webfont.ttf')
+    format('truetype'),
+    url('fonts/more-fonts/raleway-medium-webfont.svg#ralewaymedium')
+    format('svg');
+    font-weight: 
+    500;
+    font-style: 
+    normal;
+    
+    }
+    
+    
+    
+    
+    @font-face {
+    font-family: 
+    'raleway';
+    src: 
+    url('fonts/more-fonts/raleway-mediumitalic-webfont.eot');
+    src: 
+    url('fonts/more-fonts/raleway-mediumitalic-webfont.eot?#iefix')
+    format('embedded-opentype'),
+    url('fonts/more-fonts/raleway-mediumitalic-webfont.woff2')
+    format('woff2'),
+    url('fonts/more-fonts/raleway-mediumitalic-webfont.ttf')
+    format('truetype'),
+    url('fonts/more-fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic')
+    format('svg');
+    font-weight: 
+    500;
+    font-style: 
+    italic;
+    
+    }
+    @font-face {
+      font-family: 
+      'playfair';
+      src: 
+      url('fonts/more-fonts/playfairdisplay-bolditalic-webfont.eot');
+      src: 
+      url('fonts/more-fonts/playfairdisplay-bolditalic-webfont.eot?#iefix')
+      format('embedded-opentype'),
+      url('fonts/more-fonts/playfairdisplay-bolditalic-webfont.woff2')
+      format('woff2'),
+      url('fonts/more-fonts/playfairdisplay-bolditalic-webfont.ttf')
+      format('truetype'),
+      url('fonts/more-fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic')
+      format('svg');
+      font-weight: 
+      bold;
+      font-style: 
+      italic;
+      
+      }
+      
+      
+      
+      
+      @font-face {
+      font-family: 
+      'playfair';
+      src: 
+      url('fonts/more-fonts/playfairdisplay-italic-webfont.eot');
+      src: 
+      url('fonts/more-fonts/playfairdisplay-italic-webfont.eot?#iefix')
+      format('embedded-opentype'),
+      url('fonts/more-fonts/playfairdisplay-italic-webfont.woff2')
+      format('woff2'),
+      url('fonts/more-fonts/playfairdisplay-italic-webfont.ttf')
+      format('truetype'),
+      url('fonts/more-fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic')
+      format('svg');
+      font-weight: 
+      normal;
+      font-style: 
+      italic;
+      
+      }
+      
+      @font-face {
+      font-family: 
+      'playfair';
+      src: 
+      url('fonts/more-fonts/playfairdisplay-regular-webfont.eot');
+      src: 
+      url('fonts/more-fonts/playfairdisplay-regular-webfont.eot?#iefix')
+      format('embedded-opentype'),
+      url('fonts/more-fonts/playfairdisplay-regular-webfont.woff2')
+      format('woff2'),
+      url('fonts/more-fonts/playfairdisplay-regular-webfont.ttf')
+      format('truetype'),
+      url('fonts/more-fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular')
+      format('svg');
+      font-weight: 
+      normal;
+      font-style: 
+      normal;
+      
+      }
+      
+      
+      
+      
+      @font-face {
+      font-family: 
+      'playfair';
+      src: 
+      url('fonts/more-fonts/playfairdisplay-bold-webfont.eot');
+      src: 
+      url('fonts/more-fonts/playfairdisplay-bold-webfont.eot?#iefix')
+      format('embedded-opentype'),
+      url('fonts/more-fonts/playfairdisplay-bold-webfont.woff2')
+      format('woff2'),
+      url('fonts/more-fonts/playfairdisplay-bold-webfont.ttf')
+      format('truetype'),
+      url('fonts/more-fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold')
+      format('svg');
+      font-weight: 
+      bold;
+      font-style: 
+      normal;
+      
+      }
+
+/*-----                   -----top navigation header */
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+}
 img {
   max-width: 100%;
   height: auto;
 }
 
-
-/*-----                   -----top navigation header */
+body {
+  max-width: 100%;
+}
 
 .topheader {
   max-width: 100%;
-  /* height: 60px; */
+  /* height: 90px; */
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .alohalogo {
-  width: 140px;
+  width: 70px;
   padding-left: 20px;
-  padding-bottom: 30px;
   order: 1;
-  flex: 1 1 15%;
+  flex: 0 1 50%;
 }
 
 .carticon-wrapper {
-  order: 3;
-  flex: 1 1 15%;
+  order: 2;
+  flex: 0 1 50%;
   text-align: right;
 }
 
 .navwrap {
-  order: 2;
-  flex: 1 1 70%;
+  order: 3;
+  flex: 1 1 100%;
+  padding-top: 30px;
 }
 
 .carticon {
-  width: 55px;
+  width: 80px;
   padding-right: 30px;
-  padding-bottom: 20px;
+  padding-top: 6px;
 }
-
-
-/* TODO move the media query to the bottom of the stylesheet */
-
-@media (max-width: 600px) {
-  .topheader {
-    flex-flow: row wrap;
-  }
-  .alohalogo {
-    order: 1;
-  }
-  .carticon-wrapper {
-    order: 2;
-  }
-  .navwrap {
-    order: 3;
-  }
-}
-
-
-/*-----                    -----navigation bar */
 
 .nav {
   display: flex;
-  justify-content: space-around;
-  /* width: 450px; */
+  flex-flow: row wrap;
+  justify-content: center;
   list-style-type: none;
   font-weight: 300;
   font-family: 'raleway', sans-serif;
   padding-bottom: 20px;
+
   /* padding-right: 60px; */
 }
 
 .nav a {
-  padding-right: 30px;
+  margin: 2.5rem;
   text-decoration: none;
   color: #e2574c;
   font-size: 16px;
 }
-
-
-/* @media (min-width: 600px) and (max-width:1240px) {
-  .nav {
-    width: 100%;
-  } */
-
 
 /*-----                     -----top banner and text */
 
 .banner1 {
   background: linear-gradient( rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25)), url(images/banner-girl.png) no-repeat center 60px, url(images/flower-bkgd.jpg) center;
   display: flex;
-  background-size: cover, 250px 580px, cover;
+  background-size: cover, auto 100%, cover;
   height: 530px;
   align-items: center;
   flex-direction: column;
@@ -151,21 +318,21 @@ img {
 
 .banner1 p:first-child {
   font-size: 2vw;
-  padding-top: 190px;
+  padding-top: 200px;
   font-family: 'raleway', sans-serif;
   font-weight: 200;
 }
 
 .banner1 p:last-child {
   font-size: 5vw;
+  padding-top: 30px;
 }
-
 
 /*-----                    -----description */
 
 .hcstylescontent {
   text-align: center;
-  padding: 20px 0;
+  padding: 50px 0;
   color: #2d2d2d;
 }
 
@@ -185,23 +352,36 @@ h2 {
   font-size: 16px;
   font-family: 'raleway-light', sans-serif;
   font-weight: 100;
+  padding-top: 30px;
 }
 
 .description2 {
   text-align: center;
   font-size: 16px;
+  padding-top: 15px;
   padding-bottom: 20px;
   font-family: 'raleway-light', sans-serif;
   font-weight: 100;
 }
 
-
 /*-----                   -----category grid */
 
 .category-grid {
   display: flex;
-  /* flex-wrap: wrap; */
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.category-grid .block-large {
+  width: 100%;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+.category-grid .block-small {
+  width: 50%;
+  border: 2px solid white;
+  box-sizing: border-box;
 }
 
 .category-grid a {
@@ -214,22 +394,11 @@ h2 {
   font-family: 'raleway', sans-serif;
 }
 
-.category-grid .block-large {
-  display: flex;
-  padding: 0 8px 8px 0;
-}
-
-.category-grid .block-small {
-  display: flex;
-  padding: 0 8px 8px 0;
-}
-
 .category-grid .imgmens {
   background: linear-gradient( rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("images/mens-category.jpg") center / cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 600px;
   height: 250px;
 }
 
@@ -238,7 +407,6 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px;
   height: 250px;
 }
 
@@ -247,7 +415,6 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 332px;
   height: 250px;
 }
 
@@ -256,7 +423,6 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px;
   height: 250px;
 }
 
@@ -265,7 +431,6 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 292px;
   height: 250px;
 }
 
@@ -274,10 +439,8 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 640px;
   height: 250px;
 }
-
 
 /*-----                    -----product scroll and flickity */
 
@@ -286,7 +449,7 @@ h3 {
   font-style: italic;
   font-weight: normal;
   color: #2d2d2d;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .bold2 {
@@ -299,8 +462,8 @@ h3 {
 }
 
 .main-carousel {
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .carousel-cell {
@@ -313,22 +476,25 @@ p:nth-child(4) {
   color: #969696;
   font-size: 1.1vw;
   font-family: 'Raleway-Light', sans-serif;
+  padding-top: 20px;
 }
 
 .carousel-cell p:nth-child(3) {
   color: #e2574c;
   font-size: 1.6vw;
   font-family: 'Raleway-medium', sans-serif;
+  padding-top: 20px;
 }
-
 
 /*-----                    -----wave banner and text */
 
 .wavebanner {
-  background: linear-gradient( rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url("images/wave-bkgd.jpg") no-repeat center 90%;
-  height: 260px;
+  background: linear-gradient( rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url("images/wave-bkgd.jpg") no-repeat center 95%;
+  height: 280px;
   color: #fff;
   text-align: center;
+  padding-top: 10px;
+  margin-top: 70px;
 }
 
 .bold3 {
@@ -340,31 +506,38 @@ h4 {
   font-style: italic;
   font-weight: normal;
   font-size: 30px;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
-.description3,
-.description4 {
+.description3, .description4 {
   font-family: 'raleway', sans-serif;
   font-weight: 100;
 }
 
+.description3 {
+  padding-top: 30px;
+}
+
+.description4 {
+  padding-top:  20px;
+}
 
 /*-----                    -----subscribe area */
 
 .subscribearea {
   display: flex;
-  padding-top: 12px;
   justify-content: center;
+  padding-top: 30px;
+  max-width: 75%; 
 }
 
 .subscribe-input {
   border: none;
   position: absolute;
   border-radius: 35px;
-  width: 30%;
-  height: 39px;
+  height: 41px;
   font-size: 13px;
+  width: 32%;
 }
 
 .subscribearea input:first-child {
@@ -376,30 +549,29 @@ h4 {
   position: relative;
   background: #e2574c;
   border-radius: 35px;
-  width: 120px;
-  height: 35px;
+  width: 145%;
+  height: 34px;
   font-size: 13px;
   color: #fff;
-  left: 139px;
-  top: 3px;
+  left: 295px;
+  top: 4px;
 }
-
 
 /*-----                    -----footer */
 
 footer {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   background-color: #242424;
-  height: 250px;
+  height: 270px;
   margin-top: 8px;
 }
-
 
 /*-----                    -----footer left */
 
 .footerleft {
-  text-align: left;
+  text-align: center;
   padding-top: 40px;
   padding-left: 30px;
 }
@@ -411,16 +583,31 @@ footer {
   color: #fff;
 }
 
-.address {
-  color: #969696;
+.copyright {
+  padding-top: 20px;
 }
 
+.poweredby {
+  padding-top: 10px;
+}
+
+.contactinfo {
+  padding-top: 30px;
+}
+
+.address {
+  color: #969696;
+  padding-top: 30px;
+}
+
+.address p:last-child {
+  padding-top: 10px;
+}
 
 /*-----                    -----footer right */
 
 .footerright {
   display: flex;
-  align-items: center;
   padding-right: 90px;
 }
 
@@ -435,5 +622,68 @@ footer {
   list-style-type: none;
   font-family: 'raleway', sans-serif;
   font-weight: 100;
-  font-size: 1.1vw;
+  font-size: 15px;
 }
+.socialmedia a:nth-child(2) {
+  display: none;
+}
+                                 /* media  */
+@media (min-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+  .topheader {
+    flex-flow: row nowrap;
+  }
+  .alohalogo {
+    order: 1;
+    flex: 1 1 15%;
+  }
+  .carticon-wrapper {
+    order: 3;
+    flex: 1 1 15%;
+  }
+  .navwrap {
+    order: 2;
+    flex: 1 1 70%;
+  }
+  .category-grid {
+    flex-flow: row wrap;
+  }
+  .category-grid .block-large {
+    width: 50%;
+    border: 2px solid white;
+    box-sizing: border-box;
+  }
+  .category-grid .block-small {
+    width: 25%;
+    border: 2px solid white;
+    box-sizing: border-box;
+  }
+  footer {
+    flex-flow: row wrap;
+  }
+  .footerleft {
+    order: 1;
+    text-align: left;
+  }
+  .footerright {
+    order: 2;
+    align-items: center;
+  }
+  .socialmedia a:nth-child(2) {
+    display: initial;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
