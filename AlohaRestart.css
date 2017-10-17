@@ -261,8 +261,8 @@ body {
 }
 
 .alohalogo {
-  width: 70px;
-  padding-left: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
   order: 1;
   flex: 0 1 50%;
 }
@@ -271,37 +271,37 @@ body {
   order: 2;
   flex: 0 1 50%;
   text-align: right;
+  padding-right: 10px;
 }
 
 .navwrap {
   order: 3;
   flex: 1 1 100%;
-  padding-top: 30px;
 }
 
 .carticon {
-  width: 80px;
-  padding-right: 30px;
-  padding-top: 6px;
+  width: 50px;
 }
 
 .nav {
   display: flex;
   flex-flow: row wrap;
+  border-top: black 1px solid;
+  padding-top: 10px;
   justify-content: center;
   list-style-type: none;
   font-weight: 300;
   font-family: 'raleway', sans-serif;
-  padding-bottom: 20px;
+  
 
   /* padding-right: 60px; */
 }
 
 .nav a {
-  margin: 2.5rem;
+  margin: 1.0rem;
   text-decoration: none;
   color: #e2574c;
-  font-size: 16px;
+  font-size: 100%;
 }
 
 /*-----                     -----top banner and text */
@@ -309,7 +309,7 @@ body {
 .banner1 {
   background: linear-gradient( rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25)), url(images/banner-girl.png) no-repeat center 60px, url(images/flower-bkgd.jpg) center;
   display: flex;
-  background-size: cover, auto 100%, cover;
+  background-size: cover, auto 110%, cover;
   height: 530px;
   align-items: center;
   flex-direction: column;
@@ -317,15 +317,16 @@ body {
 }
 
 .banner1 p:first-child {
-  font-size: 2vw;
+  font-size: 150%;
   padding-top: 200px;
   font-family: 'raleway', sans-serif;
   font-weight: 200;
 }
 
 .banner1 p:last-child {
-  font-size: 5vw;
+  font-size: 280%;
   padding-top: 30px;
+  text-align: center;
 }
 
 /*-----                    -----description */
@@ -337,7 +338,7 @@ body {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 200%;
   font-style: italic;
   font-weight: normal;
 }
@@ -349,7 +350,7 @@ h2 {
 
 .description1 {
   text-align: center;
-  font-size: 16px;
+  font-size: 100%;
   font-family: 'raleway-light', sans-serif;
   font-weight: 100;
   padding-top: 30px;
@@ -357,9 +358,7 @@ h2 {
 
 .description2 {
   text-align: center;
-  font-size: 16px;
-  padding-top: 15px;
-  padding-bottom: 20px;
+  font-size: 100%;
   font-family: 'raleway-light', sans-serif;
   font-weight: 100;
 }
@@ -388,7 +387,7 @@ h2 {
   font-weight: bold;
   font-style: normal;
   font-weight: 100;
-  font-size: 2vw;
+  font-size: 150%;
   color: #fff;
   text-decoration: none;
   font-family: 'raleway', sans-serif;
@@ -467,21 +466,21 @@ h3 {
 }
 
 .carousel-cell {
-  width: 25%;
+  width: 100%;
   height: 450px;
 }
 
 .carousel-cell p:nth-child(2),
 p:nth-child(4) {
   color: #969696;
-  font-size: 1.1vw;
+  font-size: 100%;
   font-family: 'Raleway-Light', sans-serif;
   padding-top: 20px;
 }
 
 .carousel-cell p:nth-child(3) {
   color: #e2574c;
-  font-size: 1.6vw;
+  font-size: 100%;
   font-family: 'Raleway-medium', sans-serif;
   padding-top: 20px;
 }
@@ -505,21 +504,18 @@ p:nth-child(4) {
 h4 {
   font-style: italic;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 200%;
   padding-top: 30px;
-}
-
-.description3, .description4 {
-  font-family: 'raleway', sans-serif;
-  font-weight: 100;
 }
 
 .description3 {
   padding-top: 30px;
 }
 
-.description4 {
-  padding-top:  20px;
+.description3, .description4 {
+  font-family: 'raleway', sans-serif;
+  font-weight: 100;
+  font-size: 95%;
 }
 
 /*-----                    -----subscribe area */
@@ -535,9 +531,9 @@ h4 {
   border: none;
   position: absolute;
   border-radius: 35px;
-  height: 41px;
+  height: 40px;
   font-size: 13px;
-  width: 32%;
+  width: 65%;
 }
 
 .subscribearea input:first-child {
@@ -548,21 +544,19 @@ h4 {
   border: none;
   position: relative;
   background: #e2574c;
+  height: 35px;
   border-radius: 35px;
-  width: 145%;
-  height: 34px;
-  font-size: 13px;
+  font-size: 90%;
+  left: 140px;
+  top: 2px;
   color: #fff;
-  left: 295px;
-  top: 4px;
+ 
 }
 
 /*-----                    -----footer */
 
 footer {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
   background-color: #242424;
   height: 270px;
   margin-top: 8px;
@@ -608,7 +602,11 @@ footer {
 
 .footerright {
   display: flex;
-  padding-right: 90px;
+  list-style-type: none;
+  order: 4;
+  font-family: 'raleway', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
 }
 
 .footerright2 a {
@@ -618,16 +616,14 @@ footer {
   padding-right: 10px;
 }
 
-.socialmedia {
-  list-style-type: none;
-  font-family: 'raleway', sans-serif;
-  font-weight: 100;
-  font-size: 15px;
-}
-.socialmedia a:nth-child(2) {
+.footerright2 a:nth-child(2) {
   display: none;
 }
-                                 /* media  */
+.footerright2 a:nth-child(1) {
+  
+}
+
+                          /*----- media  -------*/
 @media (min-width: 600px) {
   html {
     font-size: 16px;
@@ -637,18 +633,51 @@ footer {
   }
   .alohalogo {
     order: 1;
+    width: 70px;
     flex: 1 1 15%;
   }
   .carticon-wrapper {
     order: 3;
     flex: 1 1 15%;
+    padding-right: 20px;
+  }
+  .carticon {
+    width: 60px;
+  }
+  .nav {
+    border-top: hidden;
+  }
+  .nav a {
+    padding-bottom: 20px;
   }
   .navwrap {
     order: 2;
     flex: 1 1 70%;
   }
+  .banner1 p:first-child {
+    font-size: 150%;
+  }
+  .banner1 p:last-child {
+    font-size: 350%;
+  }
+  h2 {
+    font-size: 200%;
+  }
+  .description1 {
+    font-size: 100%;
+    padding-top: 30px;
+  }
+  
+  .description2 {
+    font-size: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
   .category-grid {
     flex-flow: row wrap;
+  }
+  .category-grid a {
+    font-size: 150%;
   }
   .category-grid .block-large {
     width: 50%;
@@ -660,18 +689,75 @@ footer {
     border: 2px solid white;
     box-sizing: border-box;
   }
+  .carousel-cell {
+    width: 25%;
+  }
+  .carousel-cell p:nth-child(2),
+  p:nth-child(4) {
+    font-size: 100%;
+  }
+  .carousel-cell p:nth-child(3) {
+    font-size: 120%;
+  }
+  h4 {
+    font-size: 250%;
+  }
+  .description3 {
+    padding-top: 30px;
+  }
+
+  .description4 {
+    padding-top:  20px;
+  }
+  .subscribearea {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    max-width: 75%; 
+  }
+  
+  .subscribe-input {
+    border: none;
+    position: absolute;
+    border-radius: 35px;
+    height: 41px;
+    font-size: 13px;
+    width: 32%;
+  }
+  
+  .subscribearea input:first-child {
+    padding-left: 20px;
+  }
+  
+  .subscribearea input:last-child {
+    border: none;
+    position: relative;
+    background: #e2574c;
+    border-radius: 35px;
+    width: 145%;
+    height: 34px;
+    font-size: 13px;
+    color: #fff;
+    left: 296px;
+    top: 4px;
+  }
+  
   footer {
     flex-flow: row wrap;
+    justify-content: space-between;
   }
   .footerleft {
     order: 1;
     text-align: left;
   }
   .footerright {
+    display: flex;
     order: 2;
+    padding-right: 90px;
     align-items: center;
   }
-  .socialmedia a:nth-child(2) {
+  .footerright2 a:nth-child(2) {
+    /* flex: row; */
     display: initial;
   }
 
