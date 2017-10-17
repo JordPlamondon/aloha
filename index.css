@@ -284,9 +284,10 @@ body {
 
 .nav {
   display: flex;
-  flex-flow: row wrap;
-  border-top: black 1px solid;
+  flex-flow: row;
+  border-top: #d7d7d7 1px solid;
   padding-top: 10px;
+  padding-right: 10px;
   justify-content: center;
   list-style-type: none;
   font-weight: 300;
@@ -294,7 +295,7 @@ body {
 }
 
 .nav a {
-  margin: 1.0rem;
+  margin: 0.5rem;
   text-decoration: none;
   color: #e2574c;
   font-size: 100%;
@@ -547,7 +548,7 @@ h4 {
   height: 35px;
   border-radius: 35px;
   font-size: 90%;
-  left: 140px;
+  left: 141px;
   top: 2px;
   color: #fff;
  
@@ -658,6 +659,7 @@ footer {
   }
   .nav a {
     padding-bottom: 20px;
+    margin: 1.5rem;
   }
   .navwrap {
     order: 2;
