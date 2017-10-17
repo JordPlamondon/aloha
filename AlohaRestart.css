@@ -248,7 +248,6 @@ img {
 body {
   max-width: 100%;
 }
-
 .topheader {
   max-width: 100%;
   /* height: 90px; */
@@ -557,6 +556,8 @@ h4 {
 
 footer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #242424;
   height: 270px;
   margin-top: 8px;
@@ -619,9 +620,16 @@ footer {
 .footerright2 a:nth-child(2) {
   display: none;
 }
-.footerright2 a:nth-child(1) {
-  
+#socialmedia {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  margin: 1.0rem;
+  width: 100%;
+  justify-content: space-between;
 }
+  
+
 
                           /*----- media  -------*/
 @media (min-width: 600px) {
@@ -760,7 +768,9 @@ footer {
     /* flex: row; */
     display: initial;
   }
-
+  #socialmedia {
+    flex-flow: column wrap;
+  }
 
 }
 
