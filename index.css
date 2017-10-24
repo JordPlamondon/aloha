@@ -248,7 +248,7 @@ img {
 body {
   max-width: 100%;
 }
-.topheader {
+.top-header {
   max-width: 100%;
   /* height: 90px; */
   display: flex;
@@ -259,7 +259,7 @@ body {
   padding-bottom: 10px;
 }
 
-.alohalogo {
+.aloha-logo {
   padding-left: 10px;
   padding-bottom: 10px;
   order: 1;
@@ -273,12 +273,12 @@ body {
   padding-right: 10px;
 }
 
-.navwrap {
+.nav-wrap {
   order: 3;
   flex: 1 1 100%;
 }
 
-.carticon {
+.cart-icon {
   width: 50px;
 }
 
@@ -330,7 +330,7 @@ body {
 
 /*-----                    -----description */
 
-.hcstylescontent {
+.hc-styles-content {
   text-align: center;
   padding: 50px 0;
   color: #2d2d2d;
@@ -456,7 +456,7 @@ h3 {
   font-style: normal;
 }
 
-.productscroll {
+.product-scroll {
   text-align: center;
 }
 
@@ -487,7 +487,7 @@ p:nth-child(4) {
 
 /*-----                    -----wave banner and text */
 
-.wavebanner {
+.wave-banner {
   background: linear-gradient( rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url("images/wave-bkgd.jpg") no-repeat center 95%;
   height: 280px;
   color: #fff;
@@ -521,7 +521,7 @@ h4 {
 
 /*-----                    -----subscribe area */
 
-.subscribearea {
+.subscribe-area {
   display: flex;
   justify-content: center;
   padding-top: 30px;
@@ -537,11 +537,11 @@ h4 {
   width: 65%;
 }
 
-.subscribearea input:first-child {
+.subscribe-area input:first-child {
   padding-left: 20px;
 }
 
-.subscribearea input:last-child {
+.subscribe-area input:last-child {
   border: none;
   position: relative;
   background: #e2574c;
@@ -567,15 +567,15 @@ footer {
 
 /*-----                    -----footer left */
 
-.footerleft {
+.footer-left {
   text-align: center;
   padding-top: 40px;
   padding-left: 30px;
 }
 
 .copyright,
-.poweredby,
-.contactinfo,
+.powered-by,
+.contact-info,
 .email {
   color: #fff;
 }
@@ -584,11 +584,11 @@ footer {
   padding-top: 20px;
 }
 
-.poweredby {
+.powered-by {
   padding-top: 10px;
 }
 
-.contactinfo {
+.contact-info {
   padding-top: 30px;
 }
 
@@ -603,7 +603,7 @@ footer {
 
 /*-----                    -----footer right */
 
-.footerright {
+.footer-right {
   display: flex;
   list-style-type: none;
   order: 4;
@@ -612,17 +612,17 @@ footer {
   font-size: 15px;
 }
 
-.footerright2 a {
+.footer-right2 a {
   text-decoration: none;
   color: #fff;
   padding-top: 10px;
   padding-right: 10px;
 }
 
-.footerright2 a:nth-child(2) {
+.footer-right2 a:nth-child(2) {
   display: none;
 }
-#socialmedia {
+#social-media {
   display: flex;
   flex-direction: row;
   padding-left: 20px;
@@ -638,10 +638,10 @@ footer {
   html {
     font-size: 16px;
   }
-  .topheader {
+  .top-header {
     flex-flow: row nowrap;
   }
-  .alohalogo {
+  .aloha-logo {
     order: 1;
     width: 70px;
     flex: 1 1 15%;
@@ -651,7 +651,7 @@ footer {
     flex: 1 1 15%;
     padding-right: 20px;
   }
-  .carticon {
+  .cart-icon {
     width: 60px;
   }
   .nav {
@@ -661,7 +661,7 @@ footer {
     padding-bottom: 20px;
     margin: 1.5rem;
   }
-  .navwrap {
+  .nav-wrap {
     order: 2;
     flex: 1 1 70%;
   }
@@ -720,7 +720,7 @@ footer {
   .description4 {
     padding-top:  20px;
   }
-  .subscribearea {
+  .subscribe-area {
     display: flex;
     justify-content: center;
     padding-top: 30px;
@@ -736,11 +736,11 @@ footer {
     width: 32%;
   }
   
-  .subscribearea input:first-child {
+  .subscribe-area input:first-child {
     padding-left: 20px;
   }
   
-  .subscribearea input:last-child {
+  .subscribe-area input:last-child {
     border: none;
     position: relative;
     background: #e2574c;
@@ -757,21 +757,21 @@ footer {
     flex-flow: row wrap;
     justify-content: space-between;
   }
-  .footerleft {
+  .footer-left {
     order: 1;
     text-align: left;
   }
-  .footerright {
+  .footer-right {
     display: flex;
     order: 2;
     padding-right: 90px;
     align-items: center;
   }
-  .footerright2 a:nth-child(2) {
+  .footer-right2 a:nth-child(2) {
     /* flex: row; */
     display: initial;
   }
-  #socialmedia {
+  #social-media {
     flex-flow: column wrap;
   }
 
