@@ -1,9 +1,8 @@
+<img width="1279" alt="screen shot 2017-12-14 at 12 00 27 am" src="https://user-images.githubusercontent.com/32422707/33981461-dcc6f54a-e061-11e7-9810-6ccf08570346.png">
+
 # Aloha Project
 This aloha project was made using HTML5, CSS3, and JQuery. 
 
-CSS project 1 RED Academy
-
-<img width="1279" alt="screen shot 2017-12-14 at 12 00 27 am" src="https://user-images.githubusercontent.com/32422707/33981461-dcc6f54a-e061-11e7-9810-6ccf08570346.png">
 
 ## Features
 
